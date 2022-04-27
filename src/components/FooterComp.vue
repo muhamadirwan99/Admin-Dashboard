@@ -2,7 +2,7 @@
   <footer class="footer footer-black footer-white">
     <div class="container-fluid">
       <div class="row">
-        <nav class="footer-nav">
+        <!-- <nav class="footer-nav">
           <ul>
             <li>
               <a href="https://www.creative-tim.com" target="_blank"
@@ -20,10 +20,10 @@
               >
             </li>
           </ul>
-        </nav>
+        </nav> -->
         <div class="credits ml-auto">
           <span class="copyright">
-            ©2022, made with <i class="fa fa-heart heart"></i> by Creative Tim
+            ©2022, made with <i class="fa fa-heart heart"></i> by Muhamad Irwan
           </span>
         </div>
       </div>

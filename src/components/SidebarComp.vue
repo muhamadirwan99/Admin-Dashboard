@@ -31,7 +31,7 @@
 
 <style scoped>
 #nav a.router-link-exact-active {
-  color: #ef8157;
+  color: #00b7be;
   opacity: 1;
 }
 </style>

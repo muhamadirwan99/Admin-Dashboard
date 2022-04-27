@@ -11,9 +11,11 @@
             <span class="navbar-toggler-bar bar3"></span>
           </button>
         </div>
-        <a class="navbar-brand" href="javascript:;">Paper Dashboard 2</a>
+        <router-link to="/" class="navbar-brand"
+          >Admin Dashboard Platform Disleksia</router-link
+        >
       </div>
-      <button
+      <!-- <button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
@@ -25,9 +27,9 @@
         <span class="navbar-toggler-bar navbar-kebab"></span>
         <span class="navbar-toggler-bar navbar-kebab"></span>
         <span class="navbar-toggler-bar navbar-kebab"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navigation">
-        <form>
+      </button> -->
+      <!-- <div class="collapse navbar-collapse justify-content-end" id="navigation"> -->
+      <!-- <form>
           <div class="input-group no-border">
             <input
               type="text"
@@ -41,8 +43,8 @@
               </div>
             </div>
           </div>
-        </form>
-        <ul class="navbar-nav">
+        </form> -->
+      <!-- <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link btn-magnify" href="javascript:;">
               <i class="nc-icon nc-layout-11"></i>
@@ -82,8 +84,8 @@
               </p>
             </a>
           </li>
-        </ul>
-      </div>
+        </ul> -->
+      <!-- </div> -->
     </div>
   </nav>
 </template>
