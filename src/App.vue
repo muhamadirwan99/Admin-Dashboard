@@ -1,10 +1,48 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div class="wrapper">
+    <div class="sidebar" data-color="white" data-active-color="danger">
+      <div class="logo">
+        <a href="https://www.creative-tim.com" class="simple-text logo-mini">
+          <div class="logo-image-small">
+            <img src="assets/img/logo-small.png" />
+          </div>
+        </a>
+        <a href="https://www.creative-tim.com" class="simple-text logo-normal">
+          Menu
+          <!-- <div class="logo-image-big">
+            <img src="assets/img/logo-big.png" />
+          </div> -->
+        </a>
+      </div>
+      <!-- Sidebar -->
+      <SidebarComp />
+    </div>
+    <div class="main-panel">
+      <!-- Navigation -->
+      <NavComp />
+      <!-- Main Content -->
+      <router-view />
+      <!-- Footer -->
+      <FooterComp />
+    </div>
+  </div>
 </template>
+
+<script>
+// Components
+import FooterComp from "./components/FooterComp.vue";
+import NavComp from "./components/NavComp.vue";
+import SidebarComp from "./components/SidebarComp.vue";
+
+export default {
+  name: "App",
+  components: {
+    FooterComp,
+    NavComp,
+    SidebarComp,
+  },
+};
+</script>
 
 <style>
 #app {
